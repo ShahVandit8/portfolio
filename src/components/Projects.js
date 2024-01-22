@@ -270,7 +270,7 @@ const Projects = () => {
                                     <p className="card-text">
                                         Created a comprehensive inventory management system using Java, Swing, and JDBC.
                                     </p>
-                                    <a href="https://thedigitalworkstation.netlify.app/" target="_blank" type="button" className="btn btn-lg skill-btn">
+                                    <a href="https://github.com/ShahVandit8/Inventory_Management_System" target="_blank" type="button" className="btn btn-lg skill-btn">
                                         <img src={githubgrey} className="skill-icon mx-2"></img> <span className="me-2">Source</span>
                                     </a>
                                 </div>
@@ -295,7 +295,7 @@ const Projects = () => {
                                     <p className="card-text">
                                     Developed a billing system in Python for small businesses, emphasizing ease of use and efficiency..
                                     </p>
-                                    <a href="https://78degreescafe.netlify.app/" target="_blank" type="button" className="btn btn-lg skill-btn">
+                                    <a href="https://github.com/ShahVandit8/Billing_System_Project" target="_blank" type="button" className="btn btn-lg skill-btn">
                                         <img src={githubgrey} className="skill-icon mx-2"></img> <span className="me-2">Source</span>
                                     </a>
                                 </div>
