@@ -16,7 +16,7 @@ const Timeline = () => {
                             <div class="timeline-dot"></div>
                             <div class="timeline-date">September 2023 - Present</div>
                             <div class="timeline-content">
-                                <h3>Student @ York Univeristy</h3>
+                                <h3>Student @ York University</h3>
                                 <h4>Cyber Security Operations</h4>
                                 <p>Currently learnig different aspects of Cyber Security. Be it Vulnerability Management, Digital Forensics, Penetration Testing, Ethical Hacking and much more.</p>
                             </div>
@@ -46,7 +46,8 @@ const Timeline = () => {
                                 <h3>Student @ MS University of Baroda</h3>
                                 <h4>Bachelor of Computer Applications</h4>
                                 <p>Learned different concepts of Computer Applications and Software Development. Major Learnings were Python, Java, MERN Stack, and Software Engineering. </p>
-                                <p>Grade - 8.99/10</p>
+                                <p>CGPA - 8.99/10</p>
+                                <p>Award - Gold Medal-1st Rank BCA Batch 2020-23</p>
                             </div>
                         </div>
                         <div class="timeline-item">
@@ -56,7 +57,7 @@ const Timeline = () => {
                                 <h3>Student @ GSEB - Gujarat Board</h3>
                                 <h4>12th Grade - HSC</h4>
                                 <p>Did my 12th Grade from Gujarat Board GSEB.</p>
-                                <p>Grade - 82.4%</p>
+                                <p>Percentage - 82.4%</p>
                             </div>
                         </div>
                     </div>

@@ -21,7 +21,7 @@ const Hero = () => {
                         />
                     </span>
                     <p>I weave code to create seamless and visually appealing online experiences. Basically i develop Websites 😅</p>
-                    <button className="btn work-btn btn-lg"><a href="https://drive.google.com/file/d/1WKPBoZH-Bnq7LDjEXi67aUhUWbqce533/view?usp=sharing" target='_blank' >See Resume</a></button>
+                    <button className="btn work-btn btn-lg"><a href="https://drive.google.com/file/d/1tXmm0swZ5ouujLZiLWQ9I8qCSaKylyCN/view?usp=sharing" target='_blank' >See Resume</a></button>
                 </div>
 
             </div>
