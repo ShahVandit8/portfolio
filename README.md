@@ -8,7 +8,7 @@
   </kbd>
 </p>
 
-## To view a live example, **[click here](https://vandit-shah.vercel.app/)**.
+## To view a live preview, **[click here](https://vandit-shah.vercel.app/)**.
 
 ## Sections
 
@@ -84,7 +84,7 @@ Icon8 Icons are used in skill section. You can find all the icons here: [Icon8](
 👤 **Vandit Shah**
 - Website: https://vandit-shah.vercel.app/
 - Github: [ShahVandit8](https://github.com/ShahVandit8)
-- LinkedIn: [@1hanzla100](https://www.linkedin.com/in/shah-vandit/)
+- LinkedIn: [shah-vandit](https://www.linkedin.com/in/shah-vandit/)
 
 ## Show your support
 
