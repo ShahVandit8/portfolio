@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+# Welcome to My Portfolio 👋
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## A Web and Software Developer Portfolio Website built with React.js, bootstrap.
 
-## Available Scripts
+<p align="center">
+  <kbd>
+    <img src="https://github.com/ShahVandit8/portfolio/blob/main/Mockup.png"></img>
+  </kbd>
+</p>
 
-In the project directory, you can run:
+## To view a live example, **[click here](https://vandit-shah.vercel.app/)**.
 
-### `npm start`
+## Sections
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✔️ Hero\
+✔️ Summary and About me\
+✔️ Skills\
+✔️ Education & Experience\
+✔️ Projects\
+✔️ Contact
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+These instructions will get you a copy of the project up and running on your local machine for development and testing
+purposes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with
+[npm](http://npmjs.com)) installed on your computer. <br> **For Windows** Install Visual C++ Build Environment:
+[Visual Studio Build Tools](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools)
 
-### `npm run build`
+```
+node@v10.16.0 or higher
+npm@6.9.0 or higher
+git@2.17.1 or higher
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How To Use
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Fork this repoistory and clone it to your local machine.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+$ git clone https://github.com/ShahVandit8/portfolio.git
+```
 
-### `npm run eject`
+2. Go into the repository
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+$ cd portfolio
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Install dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+$ npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Start project in Local Server
 
-## Learn More
+```bash
+$ npm start 
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. Edit and Customize Project 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+6. Build Production App
 
-### Code Splitting
+```bash
+$ npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Technologies Used
 
-### Analyzing the Bundle Size
+- [React.js](https://react.dev/)
+- [Bootstrap](https://getbootstrap.com/)
+- [react-simple-typewriter](https://www.npmjs.com/package/react-simple-typewriter)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Icons
 
-### Making a Progressive Web App
+Icon8 Icons are used in skill section. You can find all the icons here: [Icon8](https://icons8.com/icons).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+👤 **Vandit Shah**
+- Website: https://vandit-shah.vercel.app/
+- Github: [ShahVandit8](https://github.com/ShahVandit8)
+- LinkedIn: [@1hanzla100](https://www.linkedin.com/in/shah-vandit/)
 
-### Deployment
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Use this Project and Customize it according to your need for free
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Just Give a ⭐️ if this project helped you!
