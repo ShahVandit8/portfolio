@@ -1,15 +1,12 @@
 import React from 'react'
-import education from '../assets/images/icons/edu.png'
 
 const Timeline = () => {
-
     return (
         <section className="px-2" id="education">
             <div className="container edu-div">
                 <div className="title">
                     <p>Education & Experience</p>
                 </div>
-
                 <div className="education py-5">
                     <div class="timeline-items">
                         <div class="timeline-item">
@@ -62,8 +59,6 @@ const Timeline = () => {
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </section>
     )

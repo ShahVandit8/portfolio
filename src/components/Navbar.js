@@ -1,13 +1,8 @@
 import React from 'react'
+import { NavHashLink } from 'react-router-hash-link';
+import { useLocation } from "react-router-dom";
 
 import logo from '../assets/images/logo.png'
-
-import { NavHashLink } from 'react-router-hash-link';
-
-import {
-    useLocation
-} from "react-router-dom";
-
 
 function Navbar() {
 
@@ -23,7 +18,7 @@ function Navbar() {
                             alt="Bootstrap"
                             className='me-2 nav-logo'
                         />
-                        <span>V</span>andit&nbsp;<span>S</span>hah
+                        Vandit&nbsp;Shah
                     </a>
                     <button
                         className="navbar-toggler"
@@ -61,7 +56,6 @@ function Navbar() {
                     </div>
                 </div>
             </nav>
-
         </div>
     )
 }

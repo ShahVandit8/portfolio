@@ -1,7 +1,6 @@
 import React from 'react'
 
-import expimg from '../assets/images/checkmark.png'
-
+// Importing icons for Skills Section 
 import html from '../assets/images/icons/html.png'
 import css from '../assets/images/icons/css.png'
 import js from '../assets/images/icons/javascript.png'
@@ -35,7 +34,6 @@ function Skills() {
                             <div className="details-container">
                                 <h2 className="experience-sub-title">Frontend</h2>
                                 <div className="article-container">
-                                    <>
                                         <button type="button" className="btn btn-lg skill-btn" disabled>
                                             <img src={react} className="skill-icon mx-2"></img> React
                                         </button>
@@ -57,15 +55,12 @@ function Skills() {
                                         <button type="button" className="btn btn-lg skill-btn" disabled>
                                             <img src={next} className="skill-icon mx-2"></img> Next Js
                                         </button>
-
-                                    </>
                                 </div>
                             </div>
 
                             <div className="details-container">
                                 <h2 className="experience-sub-title">Backend</h2>
                                 <div className="article-container">
-                                    <>
                                         <button type="button" className="btn btn-lg skill-btn" disabled>
                                             <img src={node} className="skill-icon mx-2"></img> Node Js
                                         </button>
@@ -81,14 +76,12 @@ function Skills() {
                                         <button type="button" className="btn btn-lg skill-btn" disabled>
                                             <img src={mysql} className="skill-icon mx-2"></img> MySQL
                                         </button>
-                                    </>
                                 </div>
                             </div>
 
                             <div className="details-container">
                                 <h2 className="experience-sub-title">Others</h2>
                                 <div className="article-container">
-                                    <>
                                         <button type="button" className="btn btn-lg skill-btn" disabled>
                                             <img src={py} className="skill-icon mx-2"></img> Python
                                         </button>
@@ -110,14 +103,10 @@ function Skills() {
                                         <button type="button" className="btn btn-lg skill-btn" disabled>
                                             <img src={ill} className="skill-icon mx-2"></img> Illustrator
                                         </button>
-
-                                    </>
                                 </div>
                             </div>
 
-
                         </div>
-
                     </div>
                 </div>
             </div>

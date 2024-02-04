@@ -1,4 +1,6 @@
 import React from 'react'
+
+// Importing Images of Project 1 
 import LMS1 from '../assets/images/projects/LMS/1. Landing Page.png'
 import LMS2 from '../assets/images/projects/LMS/2. Course Enrollment Page.png'
 import LMS3 from '../assets/images/projects/LMS/3. Student Login Page.png'
@@ -16,6 +18,7 @@ import LMS14 from '../assets/images/projects/LMS/14. Student Management.png'
 import LMS15 from '../assets/images/projects/LMS/15. Contact Me Form Messages.png'
 import LMS16 from '../assets/images/projects/LMS/16. Instructor Dashboard.png'
 
+// Importing Images of Project 2
 import CMS1 from '../assets/images/projects/CMS/1.png'
 import CMS2 from '../assets/images/projects/CMS/2.png'
 import CMS3 from '../assets/images/projects/CMS/3.png'
@@ -28,20 +31,17 @@ import CMS9 from '../assets/images/projects/CMS/9.png'
 import CMS10 from '../assets/images/projects/CMS/10.png'
 import CMS11 from '../assets/images/projects/CMS/11.png'
 
+// Importing Images of Project 3
 import IMS from '../assets/images/projects/IMS/IMS.jpg'
 
+// Importing Images of Project 4
 import Billing from '../assets/images/projects/BillingSystem/Billing.jpg'
 
+// Importing icons for Project
 import html from '../assets/images/icons/html.png'
 import css from '../assets/images/icons/css.png'
-import js from '../assets/images/icons/javascript.png'
 import react from '../assets/images/icons/react.png'
-import bs from '../assets/images/icons/bs.png'
-import tailwind from '../assets/images/icons/tailwind.png'
-import next from '../assets/images/icons/next.png'
 import node from '../assets/images/icons/node.png'
-import express from '../assets/images/icons/express.png'
-import npm from '../assets/images/icons/npm.png'
 import mdb from '../assets/images/icons/mdb.png'
 import open from '../assets/images/icons/open.png'
 import mysql from '../assets/images/icons/mysql.png'
@@ -59,11 +59,9 @@ const Projects = () => {
                 <div className="project">
 
                     {/* Project 1 - LMS */}
-
                     <div className="card">
                         <div className="row g-0 card-row">
                             <div className="col-lg-5">
-                                {/* <img src={LMS1} className="img-fluid rounded-start rounded-end" alt="..." /> */}
                                 <div
                                     id="carouselExampleControls"
                                     className="carousel slide"
@@ -163,11 +161,9 @@ const Projects = () => {
                     </div>
 
                     {/* Project 2 - CMS */}
-
                     <div className="card">
                         <div className="row g-0 card-row flex-row-reverse">
                             <div className="col-lg-5">
-                                {/* <img src={LMS1} className="img-fluid rounded-start rounded-end" alt="..." /> */}
                                 <div
                                     id="carouselExampleControls1"
                                     className="carousel slide"
@@ -252,7 +248,6 @@ const Projects = () => {
                     </div>
 
                     {/* Project 3 - Inventory Management */}
-
                     <div className="card">
                         <div className="row g-0 card-row">
                             <div className="col-lg-5">
@@ -279,7 +274,6 @@ const Projects = () => {
                     </div>
 
                     {/* Project 4 - Billing System */}
-
                     <div className="card">
                         <div className="row g-0 card-row flex-row-reverse">
                             <div className="col-lg-5">
@@ -302,7 +296,6 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>

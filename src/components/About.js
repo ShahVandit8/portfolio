@@ -1,5 +1,6 @@
 import React from 'react'
 
+// Imported my profile picture for about section 
 import pp from '../assets/images/pp.jpg'
 
 const About = () => {
@@ -43,7 +44,6 @@ const About = () => {
                     </div>
                 </div>
             </div>
-
         </section>
     )
 }

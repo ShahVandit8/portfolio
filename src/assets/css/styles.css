@@ -1,3 +1,5 @@
+/* Importing Custom Font */
+
 @font-face {
   font-family: "koff";
   src: url("/src/assets/fonts/Kollektif.ttf");
@@ -11,6 +13,8 @@
 * {
   font-family: "koff";
 }
+
+/* Navbar  */
 
 .nav-link {
   position: relative;
@@ -81,6 +85,8 @@
   text-decoration: none;
   border-color: #7364d0;
 }
+
+/* Hero Section  */
 
 section {
   height: fit-content;
