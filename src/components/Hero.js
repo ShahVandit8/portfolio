@@ -2,16 +2,21 @@ import React from 'react'
 
 import { Typewriter } from 'react-simple-typewriter'
 
+import data from '../data/data.json'
+
 const Hero = () => {
+
+    const {name, titleArray, subTitle, resumeLink} = data.data
+
     return (
         <section>
             <div className="container hero">
                 <div className="content">
                     <h4>Hello! 👋 My name is </h4>
-                    <h1>Vandit Shah</h1>
+                    <h1>{name}</h1>
                     <span>
                         <Typewriter
-                            words={['Full-Stack Web Developer', 'Software Developer', 'Cyber Security Enthusiast', 'Computer Addict!']}
+                            words={titleArray}
                             loop={0}
                             cursor
                             cursorStyle='|'
@@ -20,8 +25,8 @@ const Hero = () => {
                             delaySpeed={1000}
                         />
                     </span>
-                    <p>I weave code to create seamless and visually appealing online experiences. Basically i develop Websites 😅</p>
-                    <button className="btn work-btn btn-lg"><a href="https://drive.google.com/file/d/1tXmm0swZ5ouujLZiLWQ9I8qCSaKylyCN/view?usp=sharing" target='_blank' >See Resume</a></button>
+                    <p>{subTitle}</p>
+                    <button className="btn work-btn btn-lg"><a href={resumeLink} target='_blank' >See Resume</a></button>
                 </div>
 
             </div>

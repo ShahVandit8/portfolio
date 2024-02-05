@@ -1,6 +1,8 @@
 {
-    "data" : 
-    {
-        "name" : "Vandit Shah"
+    "data": {
+        "name" : "Vandit Shah",
+        "titleArray": ["Full-Stack0 Web Developer", "Software Developer", "Cyber Security Enthusiast", "Computer Addict!"],
+        "subTitle" : "I weave code to create seamless and visually appealing online experiences. Basically i develop Websites 😅",
+        "resumeLink" : "https://drive.google.com/file/d/1tXmm0swZ5ouujLZiLWQ9I8qCSaKylyCN/view?usp=sharing"
     }
 }

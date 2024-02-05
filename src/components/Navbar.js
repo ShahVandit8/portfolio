@@ -1,12 +1,15 @@
 import React from 'react'
 import { NavHashLink } from 'react-router-hash-link';
 import { useLocation } from "react-router-dom";
+import data from '../data/data.json'
 
 import logo from '../assets/images/logo.png'
 
 function Navbar() {
 
     let location = useLocation();
+
+    const {name} = data.data
 
     return (
         <div>
@@ -18,7 +21,7 @@ function Navbar() {
                             alt="Bootstrap"
                             className='me-2 nav-logo'
                         />
-                        Vandit&nbsp;Shah
+                        {name}
                     </a>
                     <button
                         className="navbar-toggler"
