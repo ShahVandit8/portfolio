@@ -6,14 +6,14 @@ import data from '../data/data.json'
 
 const Hero = () => {
 
-    const {name, titleArray, subTitle, resumeLink} = data.data
+    const {fullName, titleArray, subTitle, resumeLink} = data.data
 
     return (
         <section>
             <div className="container hero">
                 <div className="content">
                     <h4>Hello! 👋 My name is </h4>
-                    <h1>{name}</h1>
+                    <h1>{fullName}</h1>
                     <span>
                         <Typewriter
                             words={titleArray}

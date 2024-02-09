@@ -1,9 +1,13 @@
 import React from 'react'
 
-// Imported my profile picture for about section 
-import pp from '../assets/images/pp.jpg'
+import data from '../data/data.json'
 
 const About = () => {
+
+    const { aboutDescription, aboutImage } = data.data
+
+    const imagepath = "/images/about/"
+
     return (
         <section className="px-2" id="about">
             <div className="container aboutdiv">
@@ -14,14 +18,21 @@ const About = () => {
                     <div className="row flex-md-row-reverse">
                         <div className="col-12 col-md-4">
                             <img
-                                src={pp}
+                                src={imagepath + aboutImage}
                                 className="about-img img-fluid"
                                 width={880}
                                 height={880}
                                 alt={"Vandit Shah's headshot"} />
                         </div>
                         <div className="col-12 col-md-8 about-text">
-                            <p className="text-lg">
+                            {
+                                aboutDescription.map((sentence) =>
+                                    <p className="text-lg">
+                                        {sentence}
+                                    </p>
+                                )
+                            }
+                            {/* <p className="text-lg">
                                 Hello! I&apos;m Vandit, a budding full-stack web developer based in Toronto, Canada
                             </p>
                             <p className="text-lg">
@@ -38,7 +49,7 @@ const About = () => {
                             </p>
                             <p className="text-lg">
                                 If you&apos;re intrigued by what I&apos;m working on, explore my portfolio below, and let&apos;s connect for potential collaborations!
-                            </p>
+                            </p> */}
                         </div>
 
                     </div>

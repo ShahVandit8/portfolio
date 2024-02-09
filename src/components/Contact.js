@@ -1,6 +1,11 @@
 import React from 'react'
 
+import data from '../data/data.json'
+
 const Contact = () => {
+
+    const { contactParagraph, email } = data.data
+
     return (
         <div className="contact-sec px-2" id="contact">
             <div className="container contact-div">
@@ -8,15 +13,14 @@ const Contact = () => {
                     <p>Contact</p>
                 </div>
                 <div className="contect-content">
-                    <p>I&apos;m currently open to work and get involved in new projects,
-                        so get in touch if you&apos;d like to Hire me or work together.</p>
+                    <p>{contactParagraph}</p>
                     <p className="text-lg">
                         Email me at{" "}
                         <a
-                            href="mailto:shahvandit8@gmail.com"
+                            href={"mailto:"+email}
                             className="underline-link"
                         >
-                            shahvandit8@gmail.com
+                            {email}
                         </a>{" "}
                         and let&apos;s connect!
                     </p>

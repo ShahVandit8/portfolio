@@ -1,6 +1,8 @@
 {
   "data": {
-    "name": "Vandit Shah",
+    "fullName": "Vandit Shah",
+    "logo" : "logo.png",
+    "email" : "shahvandit8@gmail.com",
     "titleArray": [
       "Full-Stack Web Developer",
       "Software Developer",
@@ -9,6 +11,137 @@
     ],
     "subTitle": "I weave code to create seamless and visually appealing online experiences. Basically i develop Websites 😅",
     "resumeLink": "https://drive.google.com/file/d/1tXmm0swZ5ouujLZiLWQ9I8qCSaKylyCN/view?usp=sharing",
-    "aboutDescription": "Hello! I&apos;m Vandit, a budding full-stack web developer based in Toronto, Canada. Since my first coding venture in 8th grade, I&apos;ve been captivated by the world of technology. Armed with a Bachelor in Computer Applications, I&apos;ve honed my skills in the MERN stack, Python, and Java. Currently, I&apos;m expanding my expertise with a focus on Cyber Security at York University. Beyond coding, I find joy in the synergy of design and development. In recent years, I&apos;ve dived into programming, crafting a robust front-end stack, and creating projects that address real-world challenges. Juggling design, development, and education, I am trying to dive deep into coding and make a real difference.  If you&apos;re intrigued by what I&apos;m working on, explore my portfolio below, and let&apos;s connect for potential collaborations!"
+    "aboutDescription": 
+    [
+      "Hello! I'm Vandit, a budding full-stack web developer based in Toronto, Canada.", 
+      "Since my first coding venture in 8th grade, I've been captivated by the world of technology. Armed with a Bachelor in Computer Applications, I've honed my skills in the MERN stack, Python, and Java.",
+      "Currently, I'm expanding my expertise with a focus on Cyber Security at York University. Beyond coding, I find joy in the synergy of design and development.",
+      "In recent years, I've dived into programming, crafting a robust front-end stack, and creating projects that address real-world challenges.",
+      "Juggling design, development, and education, I am trying to dive deep into coding and make a real difference.",
+      "If you're intrigued by what I'm working on, explore my portfolio below, and let's connect for potential collaborations!"
+    ],
+    "aboutImage" : "pp.jpg",
+    "skills": 
+    [
+      {
+        "title" : "Frontend",
+        "skillname": [
+          {"name" : "React", "image": "react"}, 
+          {"name" : "HTML", "image": "html"}, 
+          {"name" : "CSS", "image": "css"}, 
+          {"name" : "JavaScript", "image": "javascript"}, 
+          {"name" : "BootStrap", "image": "bs"}, 
+          {"name" : "Tailwind", "image": "tailwind"}, 
+          {"name" : "Next Js", "image": "next"}]
+      },
+      {
+        "title" : "Backend",
+        "skillname": [
+          {"name" : "Node Js", "image": "node"},
+          {"name" : "Express Js", "image": "express"}, 
+          {"name" : "NPM", "image": "npm"},
+          {"name" : "MongoDB", "image": "mdb"},
+          {"name" : "MySQL", "image": "mysql"}]
+      },
+      {
+        "title" : "Others",
+        "skillname": [
+          {"name" : "Python", "image": "py"},
+          {"name" : "Java", "image": "java"},
+          {"name" : "Git", "image": "git"}, 
+          {"name" : "GitHub", "image": "github"}, 
+          {"name" : "Netlify", "image": "netlify"}, 
+          {"name" : "Photoshop", "image": "ps"},
+          {"name" : "Illustrator", "image": "ill"}]
+      }
+    ],
+    "projects" : [
+      {
+        "projectName" : "Learning Management System",
+        "projectType" : "THE DIGITAL WORKSTATION",
+        "projectImage" : [
+        "Project1/1. Landing Page.png", 
+        "Project1/2. Course Enrollment Page.png", 
+        "Project1/3. Student Login Page.png", 
+        "Project1/4. Student Profile Page.png", 
+        "Project1/5. My Courses Page.png", 
+        "Project1/6. Enrolled Courses Page.png", 
+        "Project1/7. Admin Dashboard.png", 
+        "Project1/8. Course Management.png", 
+        "Project1/9. Manage Course Content.png", 
+        "Project1/10. Manage Course Resources.png", 
+        "Project1/11. Manage Attendance.png", 
+        "Project1/12. Enrollment Management.png", 
+        "Project1/13. Instructor Management.png", 
+        "Project1/14. Student Management.png", 
+        "Project1/15. Contact Me Form Messages.png", 
+        "Project1/16. Instructor Dashboard.png"],
+        "techStack" : [
+          {"name" : "HTML", "image": "html"}, 
+          {"name" : "CSS", "image": "css"}, 
+          {"name" : "React", "image": "react"}, 
+          {"name" : "Node Js", "image": "node"}, 
+          {"name" : "MongoDB", "image": "mdb"}
+        ],
+        "description" : "LMS for an offline learning institute, facilitating student enrollment, progress tracking, and instructor interaction.",
+        "githubLink" : "",
+        "liveLink" : "https://thedigitalworkstation.netlify.app/"
+      },
+      {
+        "projectName" : "Cafe Management System",
+        "projectType" : "78° DEGREE CAFE",
+        "projectImage" : [
+        "Project2/1.png", 
+        "Project2/2.png", 
+        "Project2/3.png", 
+        "Project2/4.png", 
+        "Project2/5.png", 
+        "Project2/6.png", 
+        "Project2/7.png", 
+        "Project2/8.png", 
+        "Project2/9.png", 
+        "Project2/10.png", 
+        "Project2/11.png"],
+        "techStack" : [
+          {"name" : "HTML", "image": "html"}, 
+          {"name" : "CSS", "image": "css"}, 
+          {"name" : "React", "image": "react"}, 
+          {"name" : "Node Js", "image": "node"}, 
+          {"name" : "MongoDB", "image": "mdb"}
+        ],
+        "description" : "CMS for local cafe to streamline its online ordering system by integrated QR codes for Tables, Managing Orders, Kitchen Tickets and Customer Management.",
+        "githubLink" : "",
+        "liveLink" : "https://78degreescafe.netlify.app/"
+      },
+      {
+        "projectName" : "Inventory Management System",
+        "projectType" : "DESKTOP APPLICATION",
+        "projectImage" : ["Project3/IMS.jpg"],
+        "techStack" : [
+          {"name" : "Java", "image": "java"}, 
+          {"name" : "MySQL", "image": "mysql"}
+        ],
+        "description" : "Created a comprehensive inventory management system using Java, Swing, and JDBC.",
+        "githubLink" : "https://github.com/ShahVandit8/Inventory_Management_System",
+        "liveLink" : ""
+      },
+      {
+        "projectName" : "Billing System",
+        "projectType" : "DESKTOP APPLICATION",
+        "projectImage" : ["Project4/Billing.jpg"],
+        "techStack" : [
+          {"name" : "Python", "image": "py"}
+        ],
+        "description" : "Developed a billing system in Python for small businesses, emphasizing ease of use and efficiency.",
+        "githubLink" : "https://github.com/ShahVandit8/Billing_System_Project",
+        "liveLink" : ""
+      }
+    ],
+    "contactParagraph" : "I'm currently open to work and get involved in new projects, so get in touch if you'd like to Hire me or work together.", 
+    "socialLinks" : {
+      "github" : "https://github.com/ShahVandit8",
+      "linkedin" : "https://www.linkedin.com/in/shah-vandit/",
+      "instagram" : "https://www.instagram.com/shahvandit8/"
+    }
   }
 }
