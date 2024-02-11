@@ -15,7 +15,6 @@
 ✔️ Hero\
 ✔️ Summary and About me\
 ✔️ Skills\
-✔️ Education & Experience\
 ✔️ Projects\
 ✔️ Contact
 

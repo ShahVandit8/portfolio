@@ -10,8 +10,18 @@
   src: url("/src/assets/fonts/Kollektif-Bold.ttf");
 }
 
+:root {
+  --body-color: #A2A2A2;
+  --heading-color: #D3D3D3;
+  --primary-color: #1e1e25;
+  --pop-color: #A5B4FC;
+  --white: #ffffff;
+  color-scheme: dark;
+}
+
 * {
   font-family: "koff";
+  cursor:url(../images/cursor.png), auto;
 }
 
 /* Navbar  */
@@ -130,7 +140,7 @@
 section {
   height: fit-content;
   min-height: 80vh;
-  background-color: #1e1e25;
+  background-color: var(--primary-color);
   color: #fff;
   padding: 15px 0;
   border: none;
@@ -149,7 +159,7 @@ section {
 
 .hero h1 {
   font-family: "koff-bold";
-  color: #fff;
+  color: var(--heading-color);
   font-size: 75px;
   margin: 0;
 }
