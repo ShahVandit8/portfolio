@@ -18,7 +18,7 @@ function Navbar() {
                     <a className="navbar-brand p-0" href="#">
                         <img
                             src={imagepath + logo}
-                            alt="Bootstrap"
+                            alt="Vandit Shah - logo"
                             className='me-2 nav-logo'
                         />
                         {fullName}

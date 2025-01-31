@@ -32,24 +32,6 @@ const About = () => {
                                     </p>
                                 )
                             }
-                            {/* <p className="text-lg">
-                                Hello! I&apos;m Vandit, a budding full-stack web developer based in Toronto, Canada
-                            </p>
-                            <p className="text-lg">
-                                Since my first coding venture in 8th grade, I&apos;ve been captivated by the world of technology. Armed with a Bachelor in Computer Applications, I&apos;ve honed my skills in the MERN stack, Python, and Java.
-                            </p>
-                            <p className="text-lg">
-                                Currently, I&apos;m expanding my expertise with a focus on Cyber Security at York University. Beyond coding, I find joy in the synergy of design and development.
-                            </p>
-                            <p className="text-lg">
-                                In recent years, I&apos;ve dived into programming, crafting a robust front-end stack, and creating projects that address real-world challenges.
-                            </p>
-                            <p className="text-lg">
-                                Juggling design, development, and education, I am trying to dive deep into coding and make a real difference.
-                            </p>
-                            <p className="text-lg">
-                                If you&apos;re intrigued by what I&apos;m working on, explore my portfolio below, and let&apos;s connect for potential collaborations!
-                            </p> */}
                         </div>
 
                     </div>

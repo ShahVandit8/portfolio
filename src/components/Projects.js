@@ -35,7 +35,7 @@ const Projects = () => {
                                                         {
                                                             project.projectImage.map((image, id) => (
                                                                 <div className={id == 0 ? "carousel-item active" : "carousel-item"}>
-                                                                    <img src={imgpath + image} className="d-block w-100 rounded-start rounded-end" alt="..." />
+                                                                    <img src={imgpath + image} className="d-block w-100 rounded-start rounded-end" alt="Project - Images" />
                                                                 </div>
                                                             ))
                                                         }
@@ -72,7 +72,7 @@ const Projects = () => {
                                             <div className="tech">
                                                 {
                                                     project.techStack.map((item) => (
-                                                        <img src={iconpath + item.image + ".png"} className="skill-icon me-2"></img>
+                                                        <img src={iconpath + item.image + ".png"} className="skill-icon me-2" alt='Project Skill Icon'></img>
                                                     ))
                                                 }
                                             </div>
@@ -81,16 +81,16 @@ const Projects = () => {
                                             </p>
                                             {
                                                 project.githubLink.length > 1 ?
-                                                    <a href={project.githubLink} target="_blank" type="button" className="btn btn-lg skill-btn me-2">
-                                                        <img src={githubgrey} className="skill-icon mx-2"></img> <span className="me-2">Source</span>
+                                                    <a href={project.githubLink} target="_blank" rel="noreferrer" type="button" className="btn btn-lg skill-btn me-2">
+                                                        <img src={githubgrey} className="skill-icon mx-2" alt='Github Icon'></img> <span className="me-2">Source</span>
                                                     </a>
                                                     :
                                                     <></>
                                             }
                                             {
                                                 project.liveLink.length > 1 ?
-                                                    <a href={project.liveLink} target="_blank" type="button" className="btn btn-lg skill-btn">
-                                                        <img src={open} className="skill-icon mx-2"></img> <span className="me-2">Live</span>
+                                                    <a href={project.liveLink} target="_blank" rel="noreferrer" type="button" className="btn btn-lg skill-btn">
+                                                        <img src={open} className="skill-icon mx-2" alt='Project Live Icon'></img> <span className="me-2">Live</span>
                                                     </a>
                                                     :
                                                     <></>
