@@ -1,36 +1,43 @@
-# Welcome to My Portfolio 👋
+# Portfolio Template - A Fully Customizable React.js Portfolio Website  
 
-## A Web and Software Developer Portfolio Website built with React.js, bootstrap.
+![Portfolio Mockup](https://raw.githubusercontent.com/ShahVandit8/portfolio/refs/heads/main/Mockup.png)  
 
-<p align="center">
-  <kbd>
-    <img src="https://raw.githubusercontent.com/ShahVandit8/portfolio/refs/heads/main/Mockup.png"></img>
-  </kbd>
-</p>
+Welcome to **Portfolio Template**, a sleek and fully customizable portfolio website built with **React.js** and **Bootstrap**. This template is designed to help developers, designers, and creatives showcase their work effortlessly. With a simple JSON-based configuration, you can personalize the entire website without touching a single line of code.  
 
-## To view a live preview, **[click here](https://vandit-shah.me/)**.
+👉 **Live Preview:** [View Demo](https://vandit-shah.me/)  
 
-## Sections
+---
 
-✔️ Hero\
-✔️ Summary and About me\
-✔️ Skills\
-✔️ Projects\
-✔️ Contact
+## Features  
 
-## Getting Started
+- **Fully Customizable:** Edit the `data.json` file to update all sections of the portfolio.  
+- **Responsive Design:** Built with Bootstrap for seamless responsiveness across devices.  
+- **Easy to Use:** No coding required—just update the JSON file and deploy.  
+- **Modern UI:** Clean and professional design to showcase your skills and projects.  
+- **Dynamic Typing Effect:** Utilizes `react-simple-typewriter` for an engaging hero section.  
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing
-purposes.
+---
 
-You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with
-[npm](http://npmjs.com)) installed on your computer. <br> 
+## Sections  
 
-```
-node@v10.16.0 or higher
-npm@6.9.0 or higher
-git@2.17.1 or higher
-```
+✔️ **Hero Section** - A dynamic typing effect to introduce yourself.  
+✔️ **Summary and About Me** - Share your story and upload your profile picture.  
+✔️ **Skills** - Highlight your expertise with customizable icons.  
+✔️ **Projects** - Showcase your work with project details and links.  
+✔️ **Contact** - Provide a way for visitors to connect with you.  
+
+---
+
+## Getting Started  
+
+Follow these steps to set up and customize your portfolio:  
+
+### Prerequisites  
+
+Ensure you have the following installed on your machine:  
+- [Git](https://git-scm.com)  
+- [Node.js](https://nodejs.org/en/download/) (includes npm)  
+- **For Windows Users:** Install [VS Code](https://code.visualstudio.com/download) for the build environment.
 
 ## How To Use
 
@@ -87,7 +94,7 @@ Icon8 Icons are used in skill section. You can find all the icons here: [Icon8](
 ## Author
 
 👤 **Vandit Shah**
-- Website: https://vandit-shah.vercel.app/
+- Website: https://vandit-shah.me/
 - Github: [ShahVandit8](https://github.com/ShahVandit8)
 - LinkedIn: [shah-vandit](https://www.linkedin.com/in/shah-vandit/)
 
@@ -96,3 +103,5 @@ Icon8 Icons are used in skill section. You can find all the icons here: [Icon8](
 Use this Project and Customize it according to your need for free
 
 Just Give a ⭐️ if this project helped you!
+
+Made with ❤️ and ☕ by [Vandit Shah](https://github.com/ShahVandit8)
