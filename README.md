@@ -4,11 +4,11 @@
 
 <p align="center">
   <kbd>
-    <img src="https://github.com/ShahVandit8/portfolio/blob/main/Mockup.png"></img>
+    <img src="https://raw.githubusercontent.com/ShahVandit8/portfolio/refs/heads/main/Mockup.png"></img>
   </kbd>
 </p>
 
-## To view a live preview, **[click here](https://vandit-shah.vercel.app/)**.
+## To view a live preview, **[click here](https://vandit-shah.me/)**.
 
 ## Sections
 
@@ -24,8 +24,7 @@ These instructions will get you a copy of the project up and running on your loc
 purposes.
 
 You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with
-[npm](http://npmjs.com)) installed on your computer. <br> **For Windows** Install Visual C++ Build Environment:
-[Visual Studio Build Tools](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools)
+[npm](http://npmjs.com)) installed on your computer. <br> 
 
 ```
 node@v10.16.0 or higher
@@ -60,6 +59,13 @@ $ npm start
 ```
 
 5. Edit and Customize Project 
+
+- **Open the `data/data.json` file** and edit the details to personalize your portfolio.  
+- **To update the logo**, navigate to `public/images/logo/` and replace `logo.png` with your own logo.  
+- **Add icons** in `public/images/icons/` and update the paths in `data.json`.  
+- **To change the "About Me" image**, replace `public/images/about/pp.png` with your picture.  
+- Simply **edit the details in `data.json`** according to your needs, and your portfolio website will be updated.  
+- Deploy your website anywhere you want!
 
 6. Build Production App
 
