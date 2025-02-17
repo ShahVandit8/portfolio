@@ -57,7 +57,7 @@
     ],
     "projects" : [
       {
-        "projectName" : "Profile-X",
+        "projectName" : "ProfileX",
         "projectType" : "GITHUB PROFILE BUILDER",
         "projectImage" : [
         "Project5/1.png"
@@ -70,7 +70,7 @@
         ],
         "description" : "Create a stunning GitHub profile in minutes! Profile-X is a web app that helps you generate a customized README.md for your GitHub profile, showcasing your skills, experience, and projects.",
         "githubLink" : "https://github.com/ShahVandit8/profile-x/",
-        "liveLink" : "https://profile-x.vandit-shah.me/"
+        "liveLink" : "https://profilex.dev/"
       },
       {
         "projectName" : "Learning Management System",
