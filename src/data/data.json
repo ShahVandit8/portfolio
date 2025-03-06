@@ -32,7 +32,8 @@
           {"name" : "JavaScript", "image": "javascript"}, 
           {"name" : "BootStrap", "image": "bs"}, 
           {"name" : "Tailwind", "image": "tailwind"}, 
-          {"name" : "Next Js", "image": "next"}]
+          {"name" : "Next Js", "image": "next"},
+          {"name" : "Shadcn UI", "image": "shadcn-ui"}]
       },
       {
         "title" : "Backend",
@@ -51,6 +52,7 @@
           {"name" : "Git", "image": "git"}, 
           {"name" : "GitHub", "image": "github"}, 
           {"name" : "Netlify", "image": "netlify"}, 
+          {"name" : "Vercel", "image": "vercel"}, 
           {"name" : "Photoshop", "image": "ps"},
           {"name" : "Illustrator", "image": "ill"}]
       }
@@ -66,11 +68,29 @@
           {"name" : "HTML", "image": "html"}, 
           {"name" : "CSS", "image": "css"}, 
           {"name" : "React", "image": "react"}, 
-          {"name" : "BootStrap", "image": "bs"}
+          {"name" : "BootStrap", "image": "bs"},
+          {"name" : "Vercel", "image": "vercel"} 
         ],
         "description" : "Create a stunning GitHub profile in minutes! Profile-X is a web app that helps you generate a customized README.md for your GitHub profile, showcasing your skills, experience, and projects.",
         "githubLink" : "https://github.com/ShahVandit8/profile-x/",
         "liveLink" : "https://profilex.dev/"
+      },
+      {
+        "projectName" : "BlockchainX",
+        "projectType" : "Blockchain Simulator",
+        "projectImage" : [
+        "Project6/1.png"
+      ],
+        "techStack" : [
+          {"name" : "Next", "image": "next"}, 
+          {"name" : "React", "image": "react"}, 
+          {"name" : "TypeScript", "image": "typescript"},
+          {"name" : "Tailwind", "image": "tailwind"},
+          {"name" : "Shadcn UI", "image": "shadcn-ui"}
+        ],
+        "description" : "BlockchainX is an interactive blockchain simulator to visualize mining, create wallets, and send transactions in real-time. Learn blockchain and Bitcoin mining easily.",
+        "githubLink" : "https://github.com/ShahVandit8/blockchain-simulator/",
+        "liveLink" : "https://shahvandit8.github.io/blockchain-simulator/"
       },
       {
         "projectName" : "Learning Management System",

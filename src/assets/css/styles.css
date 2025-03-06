@@ -64,6 +64,7 @@
 .hire-btn {
   width: 90px;
   background-color: #7264d0;
+  cursor: inherit !important;
 }
 
 .hire-btn:hover {
@@ -188,6 +189,7 @@ section {
   font-size: 18px;
   height: 58px;
   width: 160px;
+  cursor: inherit;
 }
 
 .hero .work-btn:hover {
@@ -459,6 +461,34 @@ article .icon {
   height: 1.7rem;
 }
 
+.tech-item {
+  position: relative; /* Needed for tooltip positioning */
+  display: inline-block; /* Ensures it wraps around content */
+}
+
+.tech-item .tooltip {
+  position: absolute;
+  bottom: -2rem; 
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: white;
+  font-size: 0.75rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.5rem;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  z-index: 50;
+  pointer-events: none;
+}
+
+.tech-item:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
 .card-body .skill-btn {
   font-family: "koff-bold";
   border-radius: 0.5rem;
@@ -472,7 +502,7 @@ article .icon {
 .card-body .skill-btn:hover {
   border-radius: 0.5rem;
   color: #99999e;
-  cursor: pointer;
+  cursor: inherit;
 }
 
 .carousel-indicators li {

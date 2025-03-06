@@ -22,7 +22,7 @@ const Projects = () => {
                     {
                         projects.map((project, index) => (
                             <div className="card">
-                                <div className={index % 2 == 0 ? "row g-0 card-row" : "row g-0 card-row flex-row-reverse"}>
+                                <div className={index % 2 === 0 ? "row g-0 card-row" : "row g-0 card-row flex-row-reverse"}>
                                     <div className="col-lg-5">
                                         {
                                             project.projectImage.length > 1 ?
@@ -34,8 +34,8 @@ const Projects = () => {
                                                     <div className="carousel-inner">
                                                         {
                                                             project.projectImage.map((image, id) => (
-                                                                <div className={id == 0 ? "carousel-item active" : "carousel-item"}>
-                                                                    <img src={imgpath + image} className="d-block w-100 rounded-start rounded-end" alt="Project - Images" />
+                                                                <div className={id === 0 ? "carousel-item active" : "carousel-item"}>
+                                                                    <img src={imgpath + image} className="d-block w-100 rounded-start rounded-end" alt={`${project.projectName} - Project Demo`} />
                                                                 </div>
                                                             ))
                                                         }
@@ -60,7 +60,7 @@ const Projects = () => {
                                                     </button>
                                                 </div>
                                                 :
-                                                <img src={imgpath + project.projectImage[0]} className="img-fluid rounded-start rounded-end" alt="..." />
+                                                <img src={imgpath + project.projectImage[0]} className="img-fluid rounded-start rounded-end" alt={`${project.projectName} - Project Demo`} />
 
                                         }
 
@@ -72,7 +72,10 @@ const Projects = () => {
                                             <div className="tech">
                                                 {
                                                     project.techStack.map((item) => (
-                                                        <img src={iconpath + item.image + ".png"} className="skill-icon me-2" alt='Project Skill Icon'></img>
+                                                        <span className="tech-item">
+                                                        <img src={iconpath + item.image + ".png"} className="skill-icon me-2" alt={`${item.name} - Project Skill Icon`}></img>
+                                                        <span className="tooltip">{item.name}</span>
+                                                        </span>
                                                     ))
                                                 }
                                             </div>

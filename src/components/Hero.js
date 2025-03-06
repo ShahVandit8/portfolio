@@ -26,7 +26,7 @@ const Hero = () => {
                         />
                     </span>
                     <p>{subTitle}</p>
-                    <button className="btn work-btn btn-lg"><a href={resumeLink} target='_blank' >See Resume</a></button>
+                    <button className="btn work-btn btn-lg"><a href={resumeLink} target='_blank' rel="noreferrer">See Resume</a></button>
                 </div>
 
             </div>
