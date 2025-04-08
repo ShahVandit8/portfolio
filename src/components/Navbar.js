@@ -13,49 +13,55 @@ function Navbar() {
 
     return (
         <div>
-            <nav className="navbar fixed-top navbar-expand-lg" style={{ background: '#1D1D23', padding: '17px' }} data-bs-theme="dark">
-                <div className="container-fluid">
-                    <a className="navbar-brand p-0" href="#">
-                        <img
-                            src={imagepath + logo}
-                            alt="Vandit Shah - logo"
-                            className='me-2 nav-logo'
-                        />
-                        {fullName}
-                    </a>
-                    <button
-                        className="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavAltMarkup"
-                        aria-controls="navbarNavAltMarkup"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span className="navbar-toggler-icon" />
-                    </button>
-                    <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup" style={{ fontSize: '17px', marginTop: '10px' }}>
-                        <div className="navbar-nav">
-                            <NavHashLink className={`${location.pathname}${location.hash}` === `/#top` ? "active1 nav-link mx-2" : `${location.pathname}${location.hash}` === `/` ? "active1 nav-link mx-2" : "nav-link mx-2"} to="#top">
-                                Home
-                            </NavHashLink>
-                            <NavHashLink className={`${location.pathname}${location.hash}` === `/#about` ? "active1 nav-link mx-2" : "nav-link mx-2"} to="#about">
-                                About
-                            </NavHashLink>
-                            <NavHashLink className={`${location.pathname}${location.hash}` === `/#skills` ? "active1 nav-link mx-2" : "nav-link mx-2"} to="#skills">
-                                Skills
-                            </NavHashLink>
-                            <NavHashLink className={`${location.pathname}${location.hash}` === `/#projects` ? "active1 nav-link mx-2" : "nav-link mx-2"} to="#projects">
-                                Projects
-                            </NavHashLink>
-                            <NavHashLink className={`${location.pathname}${location.hash}` === `/#contact` ? "active1 nav-link mx-2" : "nav-link mx-2"} to="#contact">
-                                Contact
-                            </NavHashLink>
-                            <button class="btn hire-btn mx-2" style={{ borderRadius: '5%' }} type="submit"> <a className="hire-a" href={`mailto:` + email}>Hire Me</a> </button>
+            <div className='fixed-top'>
+                <div style={{ background: '#7364D0', padding: '5px' }}>
+                    <div className="text-center text-white"><span>Check out my New Portfolio at <a href="https://vandit-shah.me" className='text-white' style={{decoration: 'none'}} >https://vandit-shah.me</a></span></div>
+                </div>
+                <nav className="navbar navbar-expand-lg row" style={{ background: '#1D1D23', padding: '17px' }} data-bs-theme="dark">
+                    <div className="container-fluid">
+                        <a className="navbar-brand p-0" href="#">
+                            <img
+                                src={imagepath + logo}
+                                alt="Vandit Shah - logo"
+                                className='me-2 nav-logo'
+                            />
+                            {fullName}
+                        </a>
+                        <button
+                            className="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup"
+                            aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <span className="navbar-toggler-icon" />
+                        </button>
+                        <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup" style={{ fontSize: '17px', marginTop: '10px' }}>
+                            <div className="navbar-nav">
+                                <NavHashLink className={`${location.pathname}${location.hash}` === `/#top` ? "active1 nav-link mx-2" : `${location.pathname}${location.hash}` === `/` ? "active1 nav-link mx-2" : "nav-link mx-2"} to="#top">
+                                    Home
+                                </NavHashLink>
+                                <NavHashLink className={`${location.pathname}${location.hash}` === `/#about` ? "active1 nav-link mx-2" : "nav-link mx-2"} to="#about">
+                                    About
+                                </NavHashLink>
+                                <NavHashLink className={`${location.pathname}${location.hash}` === `/#skills` ? "active1 nav-link mx-2" : "nav-link mx-2"} to="#skills">
+                                    Skills
+                                </NavHashLink>
+                                <NavHashLink className={`${location.pathname}${location.hash}` === `/#projects` ? "active1 nav-link mx-2" : "nav-link mx-2"} to="#projects">
+                                    Projects
+                                </NavHashLink>
+                                <NavHashLink className={`${location.pathname}${location.hash}` === `/#contact` ? "active1 nav-link mx-2" : "nav-link mx-2"} to="#contact">
+                                    Contact
+                                </NavHashLink>
+                                <button class="btn hire-btn mx-2" style={{ borderRadius: '5%' }} type="submit"> <a className="hire-a" href={`mailto:` + email}>Hire Me</a> </button>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </nav>
+                </nav>
+            </div>
+
             <div id="contact-left">
                 {/* <div id="contact-line" /> */}
                 <div id="contact-left-links">

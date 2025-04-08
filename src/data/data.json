@@ -93,6 +93,21 @@
         "liveLink" : "https://shahvandit8.github.io/blockchain-simulator/"
       },
       {
+        "projectName" : "NFT Lending Dapp Contract",
+        "projectType" : "Solidity Smart Contracts",
+        "projectImage" : [
+        "Project7/1.png"
+      ],
+        "techStack" : [
+          {"name" : "Ethereum", "image": "ethereum"}, 
+          {"name" : "Solidity", "image": "solidity"}, 
+          {"name" : "Hardhat", "image": "hardhat"}
+        ],
+        "description" : "NFTLendingContracts is a smart contract backend for an Ethereum-based NFT lending marketplace. It enables lending, borrowing, and liquidation of NFTs with ETH collateral, featuring a fixed 1% daily interest rate.",
+        "githubLink" : "https://github.com/ShahVandit8/nft_lending_contracts",
+        "liveLink" : ""
+      },
+      {
         "projectName" : "Learning Management System",
         "projectType" : "THE DIGITAL WORKSTATION",
         "projectImage" : [
@@ -148,6 +163,22 @@
         "description" : "CMS for local cafe to streamline its online ordering system by integrated QR codes for Tables, Managing Orders, Kitchen Tickets and Customer Management.",
         "githubLink" : "",
         "liveLink" : "https://78degreescafe.netlify.app/"
+      },
+      {
+        "projectName" : "Insurance Agent Wesbite",
+        "projectType" : "FREELANCE PROJECT",
+        "projectImage" : [
+        "Project8/1.png"
+      ],
+        "techStack" : [
+          {"name" : "Next", "image": "next"}, 
+          {"name" : "React", "image": "react"}, 
+          {"name" : "JavaScript", "image": "javascript"},
+          {"name" : "BootStrap", "image": "bs"}
+        ],
+        "description" : "AP Life Secure - A Business Wesbite for Insurance Company, It was a Freelance Project. Looked after development, deployment and SEO.",
+        "githubLink" : "",
+        "liveLink" : "https://aplifesecure.ca"
       },
       {
         "projectName" : "Inventory Management System",

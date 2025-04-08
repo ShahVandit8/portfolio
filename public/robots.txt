@@ -1,4 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Allow: /
-Sitemap: https://vandit-shah.me/sitemap.xml
+Sitemap: https://vandit-shah.vercel.app/sitemap.xml
